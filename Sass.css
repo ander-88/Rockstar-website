@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+* {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Rock_Star_webstie/image/background1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo i {
+  color: white;
+  font-size: 2.4em;
+}
+
+.logo a {
+  color: white;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+  color: orange;
+}
+
+.ordernow {
+  width: 50%;
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.ordernow i {
+  color: white;
+  font-size: 4.2em;
+  margin-bottom: 20px;
+}
+
+#title {
+  color: orange;
+  font-size: 3em;
+}
+
+.ordernow p {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+button {
+  margin: 20px;
+  width: 110px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: 900;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  background-color: orange;
+  border: none;
+  transform: scale(1.1);
+}
+
+.dishes {
+  background-color: black;
+}
+
+.dishes h1 {
+  color: orange;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 4em;
+  padding: 50px;
+}
+
+.menu {
+  display: grid;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu div {
+  background-color: #212121;
+  color: wheat;
+  margin: 25px;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+
+.menu div:hover {
+  background-color: #474747;
+  transform: scale(1.08);
+  color: white;
+}
+
+.menu .dish1 {
+  text-align: center;
+  border-radius: 25px;
+}
+
+.menu .dish1 i {
+  margin-top: 20px;
+  font-size: 4em;
+}
+
+.menu .dish1 .strt {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.menu .dish1 .prg-strt {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.menu .dish2 {
+  text-align: center;
+  border-radius: 25px;
+}
+
+.menu .dish2 i {
+  margin-top: 20px;
+  font-size: 4em;
+}
+
+.menu .dish2 .main-dish {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.menu .dish2 .prg-dish {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.menu .dish3 {
+  text-align: center;
+  border-radius: 25px;
+}
+
+.menu .dish3 i {
+  margin-top: 20px;
+  font-size: 4em;
+}
+
+.menu .dish3 .Dessert {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.menu .dish3 .prg-Dessert {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.abt-tittle {
+  background-color: black;
+}
+
+.abt-tittle h1 {
+  color: orange;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 4em;
+  padding: 50px;
+}
+
+.abt-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  width: 100%;
+  height: 600px;
+}
+
+.abt-us div {
+  background-color: #212121;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-us .img-abt img {
+  height: 90%;
+  border-radius: 25px;
+}
+
+.abt-us .abt-prg {
+  display: inline-block;
+  padding: 25px;
+  color: wheat;
+  text-align: justify;
+}
+
+.abt-us .abt-prg h1 {
+  font-size: 3.3em;
+  margin-bottom: 30px;
+}
+
+.abt-us .abt-prg p {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+.contact {
+  background-color: #000000;
+}
+
+.contact .head {
+  text-align: center;
+}
+
+.contact .head h1 {
+  color: orange;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 4em;
+  padding: 50px;
+}
+
+.contact .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .form .input_field {
+  width: 360px;
+  height: 60px;
+  font-size: 15px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+.contact .form .input_field:focus {
+  width: 377px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer .footer_icons a {
+  color: #212121;
+  margin-left: 30px;
+}
+
+footer .footer_icons a i {
+  font-size: 1.5em;
+}
+
+footer .footer_icons a:hover {
+  color: orange;
+}
+
+.menu .dish2 a {
+  text-decoration: none;
+}
+
+.menu .dish2 a:visited {
+  color: wheat;
+}
+
+.menu .dish2 a:link {
+  color: wheat;
+}
+
+.menu .dish2 a:hover {
+  color: white;
+}/*# sourceMappingURL=Sass.css.map */
